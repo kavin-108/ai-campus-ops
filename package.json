@@ -1,0 +1,23 @@
+{
+  "name": "campus-resource-allocation-system",
+  "version": "1.0.0",
+  "description": "Intelligent Facility & Laboratory Resource Allocation Platform - Elegant Cream and Obsidian Black Edition",
+  "main": "backend/server.js",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "start": "node backend/server.js",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "campus",
+    "facility-management",
+    "resource-allocation",
+    "react",
+    "vite",
+    "express"
+  ],
+  "author": "Smart Campus Ops Team",
+  "license": "ISC"
+}
